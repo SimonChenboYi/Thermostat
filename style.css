@@ -3,3 +3,32 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.low-usage {
+  color: green;
+}
+
+.medium-usage {
+  color: black;
+}
+
+.high-usage {
+  color: red;
+}
+
+.weather h1 {
+  display: inline;
+}
+
+.weather h3  {
+  display: inline;
+}
+
+.thermostate-head h1{
+  display: inline;
+}
+
+button {
+  padding: 15px 32px;
+  font-size: large;
+}

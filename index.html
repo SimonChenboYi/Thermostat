@@ -4,29 +4,38 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="/style.css" />
-  <style>
-      a.test {
-          font-weight: bold;
-      }
-      </style>
+
 </head>
 
 <body>
   <title> Thermostat</title>
 
-  <seciton>
-    <h1 id="temperature"></h1>
-    
+  <center>
+    <div class="weather">
+    <h1 id="city">City</h1><h1>:</h1><h1 id="weather">Weather</h1>
+    <br>
+    <h3>Minimum Temperature: </h3><h3 id="min-temp">Min-temp</h3> 
+    <br>
+    <h3 >Maximum Temperature: </h3><h3 id="max-temp">Max-temp</h3>
+    </div>
+
+    <br><br>
+    <br><br>
+    <div class="thermostate-head">
+    <h1>Thermostat:</h1> <h1 id="temperature"></h1> 
+    <div>
+      
     <p>
       <button id="temperature-up">+</button>
       <button id="temperature-down">-</button>
       <button id="temperature-reset">reset</button>
-      power saving mode is <span id="power-saving-status">on</span>
+    <br><br>
+    <br><br>
+      <h3>power saving mode is <span id="power-saving-status">on</span> </h3>
       <button id="powersaving-on">PSM on</button>
       <button id="powersaving-off">PSM off</button>
     </p>
-    
-  </seciton>
+</center>
 
   <script src="jquery-3.4.0.js"></script>
   <script src="js/src/Thermostat.js"></script>
